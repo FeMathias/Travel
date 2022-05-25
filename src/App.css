@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue';
+}
+
+header {
+  background-color: #f55a5a;
+  width: 100%;
+  display: flex;
+  
+}
+
+header>nav {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+}
+
+nav>img {
+  width: 50px;
+}
+
+nav>h1 {
+  color: white;
+  margin-left: 5px;
+  font-family: 'Helvetica Light';
+}
+
+#card {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-top: 50px;
+  max-width: 700px;
+  height: 250px;
+  padding: 30px 50px 50px 50px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.034);
+  border-width: 0px 0px 3px 0px;
+}
+
+#card:hover {
+  background-color: rgba(128, 128, 128, 0.03);
+}
+
+.BigImage {
+  width: 180px;
+  height: 280px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+#upperInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#upperInfo>img {
+  width: 15px;
+  margin-right: 10px;
+}
+
+#upperInfo>h2 {
+  letter-spacing: 4px;
+  margin-right: 10px;
+}
+
+h3>a {
+  color: rgba(128, 128, 128, 0.541);
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family: 'Helvetica Light';
+}
+
+#lowerInfo>h1 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+#lowerInfo>h2 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+#lowerInfo {
+  width: 500px;
+  text-align: justify;
+}
